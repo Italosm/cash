@@ -17,7 +17,7 @@ function calcularDigitoVerificadorOnze(numero) {
   return digitoControle === 0 || digitoControle === 1 || digitoControle === 10 ? 1 : digitoControle;
 }
 
-const numero0 = "0339938900000185009869859700000057782390101";
+const numero0 = "";
 const digitoControle0 = calcularDigitoVerificadorOnze(numero0);
 
 console.log(`Número: ${numero0}`);
